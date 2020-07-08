@@ -3,7 +3,7 @@ body{
   background-color:#e5eaf5
 }
 .display-4{
-  color: #BE29EC;
+
   font-weight: 400;
   
 }
@@ -75,6 +75,46 @@ html{
 
 }
 
+.banner{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./img/study.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+padding: 0;
+color: black;
+
+}
+
+.banner .info{
+  margin-top: 10%;
+  transform: translateY(-10%);
+  
+}
+
+.banner .info a{
+
+
+
+}
+
+.banner .info a:hover{
+  text-decoration: none;
+}
+
+
+
+.banner .info p{
+font-size: 2em;
+letter-spacing: 0.5px;
+font-weight: 400;
+
+}
+
+
+
 #courses-bg{
   background-image: url(./img/course-bg.jpg);
 
@@ -83,6 +123,16 @@ html{
   background-size: cover;
   position: absolute;
   opacity: 0.5;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+
+}
+#color-overlay-banner{
+  background: black;  /* fallback for old browsers */
+
+  position: absolute;
+  opacity: 0.3;
   z-index: 0;
   width: 100%;
   height: 100%;
@@ -122,7 +172,7 @@ background: linear-gradient(to right, #38e9ef, #108dc7); /* W3C, IE 10+/ Edge, F
   background-size: cover;
   position: absolute;
   background-position: top;
-  opacity: 0.2;
+  opacity: 0.3;
   z-index: 0;
   width: 100%;
   height: 100%;
@@ -447,6 +497,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   /* border: 2px solid rgba(187, 180, 180, 0.089); */
   box-shadow: 0px 5px 5px 0px #363333;
   border-radius: 5%;
+  border: 1px solid lightgray;
   /* background-size: contain; */
   /* background-image: url(https://virtuser.com/wp-content/uploads/2018/09/Workshop-MVNO-Virtuser.png); */
 
