@@ -2,11 +2,13 @@
 body{
   background-color:#e5eaf5
 }
-.display-4{
 
-  font-weight: 400;
-  
+h1{
+  font-family: raleway;
+  font-weight: 500;
 }
+ 
+
 #card-info-course p{
   color: yellow;
 }
@@ -94,11 +96,7 @@ color: black;
   
 }
 
-.banner .info a{
 
-
-
-}
 
 .banner .info a:hover{
   text-decoration: none;
@@ -166,13 +164,13 @@ background: linear-gradient(to right, #38e9ef, #108dc7); /* W3C, IE 10+/ Edge, F
 }
 
 #contact-bg{
-  background-image: url(./img/contact-us.jpg);
-
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #E6DADA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #274046, #E5EAF5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   position: absolute;
-  background-position: top;
-  opacity: 0.3;
+  background-position: center;
+  opacity: 0.8;
   z-index: 0;
   width: 100%;
   height: 100%;
