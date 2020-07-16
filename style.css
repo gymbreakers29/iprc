@@ -24,7 +24,7 @@ h1{
 
 .navbar {
   min-height: 60px;
-  background-color: #002448;
+  background-color: #020202;
 }
 html{
   overflow-x: hidden;
@@ -198,8 +198,7 @@ background: linear-gradient(to right, #38e9ef, #108dc7); /* W3C, IE 10+/ Edge, F
 }
 
 #partner-org-bg{
-
-background-color: aqua;
+  background: linear-gradient(to bottom,#ACB8CD, aqua);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -227,7 +226,7 @@ p{
 }
 footer{
   margin-top: -24px;
-  background-color: #002448;
+  background-color: #020202;
   color: #E5B964;
 }
 
@@ -293,7 +292,13 @@ width: 50%;
   align-items: center;
 }
 
+#Help a:hover{
+  color: orange;
+}
 
+#Help a{
+  color: navy;
+}
 
 
 .photo-container{
